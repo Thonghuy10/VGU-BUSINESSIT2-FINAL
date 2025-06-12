@@ -76,8 +76,8 @@ with st.sidebar:
     )
     
     # Thêm metrics tóm tắt trong sidebar
-st.markdown("---")
-st.subheader("Dashboard Summary")
+    st.markdown("---")
+    st.subheader("Dashboard Summary")
     
     col1, col2 = st.columns(2)
     col1.metric("Total Items", "847")
