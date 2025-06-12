@@ -118,6 +118,8 @@ with main_container:
       # Nội dung theo trang
     if page == "Overview":
         show_overview()
+         elif page == "homepages":
+        show_homepages()
     elif page == "Visualizations":
         show_visualizations()
     elif page == "Advanced Insights":
