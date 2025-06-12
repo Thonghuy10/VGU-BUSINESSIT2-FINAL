@@ -1,6 +1,7 @@
 import streamlit as st
 import base64
 from datetime import date
+import show_homepages
 from pages.overview import show_overview
 from pages.visualizations import show_visualizations
 from pages.insights import show_insights
